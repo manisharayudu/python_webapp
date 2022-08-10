@@ -12,19 +12,19 @@ default = "eu-central-1"
 variable "AMIS" {
     type = map
     default = {
-        eu-north-1 = "ami-00a8ab5e0a29e8173"
-        eu-south-1 = "ami-03f04e4a71e1b3c2b"
-        eu-central-1 = "ami-0bdbe51a2e8070ff2"
-        eu-west-1 = "ami-03caf24deed650e2c"
+        eu-north-1 = "ami-000e50175c5f86214"
+        eu-south-1 = "ami-027f7881d2f6725e1"
+        eu-central-1 = "ami-09042b2f6d07d164a"
+        eu-west-1 = "ami-0f29c8402f8cce65c"
     }
 }
 
 variable "PATH_TO_PUBLIC_KEY" {
-  default = "levelup_key.pub"
+  default = "alter_key.pub"
 }
 
 variable "PATH_TO_PRIVATE_KEY" {
-  default = "levelup_key"
+  default = "alter_key"
 }
 
 variable "INSTANCE_USERNAME" {
